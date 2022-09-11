@@ -1,0 +1,135 @@
+body{
+    background-color:pink;
+}
+
+#header{
+    padding: 0.07em;
+    background-color: rgba(255, 255, 255, 0.664);
+    color: rgba(158, 15, 51, 0.829);
+    text-align: center;
+    font-size: 5em;
+    margin-top: -1%;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    transform: translateX(-8px);
+}
+
+
+.new-keeps{
+    text-align: center;
+    padding: 4em;
+    margin-top: 2em;
+   
+    
+}
+
+.new-keep-title{
+    font-size: 1.5em;
+    width: 372px;
+    font-family: 'Lora', serif;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 1em;
+}
+
+.new-keep-msg{
+    
+    margin-right:0.06rem;
+    font-size: 1.25em;
+    
+    font-family: 'Lora', serif; 
+    
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 1.70em;
+    border: none;
+}
+
+.new-keep-title:focus{
+    outline: none;
+    
+}
+
+.new-keep-msg:focus{
+    outline: none;
+}
+
+#plus{
+    font-size: 25px;
+    width: 5em;
+    height: 1em;
+    padding: 0%;
+    padding-bottom: 1.15em;
+    position: absolute;
+    bottom: 30%;
+    right: 41.8em;
+    background-color:rgba(255, 255, 255, 0.664);
+    transition: 0.2s;
+    left:36.5%;
+}
+
+#plus:hover{
+    background-color: rgb(198, 218, 204);
+}
+
+#plus:active{
+    transform: scale(0.9);
+}
+
+#keepsd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+
+.keeps{
+    background-color: rgba(255, 255, 255, 0.664);
+    width: 372px;
+    height:150px;
+    padding: 1em;
+    margin: 1em;
+    backdrop-filter: blur(1px);
+}
+
+.keep-title{
+    font-size: 1.4em;
+    margin-bottom: 0.35em;
+    font-weight: bold;
+}
+
+.keep-msg{
+    font-size: 1.2em;
+
+}
+
+.delete{
+    margin-top: 5em;
+    margin-left: 1em;
+    float: right;
+    background-color: none;
+    border: none;
+    border-radius: 10%;
+    padding-top: 0.3em;
+    width: 2.5em;
+    transition: 0.2s;
+    
+}
+
+.delete:hover{
+    background-color: rgba(220, 193, 193, 0.993);
+}
+
+.delete:active{
+    transform: scale(0.9);
+}
+
+.del{
+    width: 1.5em;
+    height: 2em;
+    border-radius: 10%;
+    margin-left:1em;
+ 
+}
